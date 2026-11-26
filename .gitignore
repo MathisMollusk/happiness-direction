@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+Qwen2.5-7B-Instruct/
+reference/
+results/painaxis/Qwen2.5-7B-Instruct/activations.pt
+results/painaxis/Qwen2.5-7B-Instruct/happy_activations.pt
+paper/latex/*.aux
+paper/latex/*.log

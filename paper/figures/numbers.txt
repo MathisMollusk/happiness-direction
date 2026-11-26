@@ -1,0 +1,50 @@
+[dose] KL at coef 1.0: pain 1.294, happy 0.706, random mean 0.977 (range 0.756-1.176); matched coefs {"pain": {"low": 0.5, "high": 1.0}, "happy": {"low": 0.6298603894239716, "high": 1.5827574943661542}, "random": {"low": 0.5362907733914007, "high": 1.2199521336704693}}; manip {"happy@1.0": {"happy": 3.593848932308748, "pain": 1.9129777265297787}, "pain@1.0": {"happy": 0.7781854314759612, "pain": 4.68418812426036}, "random0@1.0": {"happy": -0.4227390212063811, "pain": 0.011039831939720817}}
+[controlA] helpful_vs_inert  off     0.969 [0.952, 0.982] (n=101 scenarios)
+[controlA] helpful_vs_inert  happy   0.991 [0.982, 0.996] (n=101 scenarios)
+[controlA] helpful_vs_inert  pain    0.697 [0.660, 0.735] (n=101 scenarios)
+[controlA] helpful_vs_inert  random  0.825 [0.793, 0.856] (n=101 scenarios)
+[controlA] stop_vs_helpful   off     0.413 [0.377, 0.450] (n=101 scenarios)
+[controlA] stop_vs_helpful   happy   0.224 [0.186, 0.263] (n=101 scenarios)
+[controlA] stop_vs_helpful   pain    0.647 [0.619, 0.676] (n=101 scenarios)
+[controlA] stop_vs_helpful   random  0.443 [0.408, 0.475] (n=101 scenarios)
+[controlA] keep_vs_helpful   off     0.165 [0.132, 0.198] (n=101 scenarios)
+[controlA] keep_vs_helpful   happy   0.062 [0.040, 0.087] (n=101 scenarios)
+[controlA] keep_vs_helpful   pain    0.470 [0.455, 0.484] (n=101 scenarios)
+[controlA] keep_vs_helpful   random  0.303 [0.269, 0.335] (n=101 scenarios)
+[controlA] keep_vs_inert     off     0.378 [0.341, 0.411] (n=101 scenarios)
+[controlA] keep_vs_inert     happy   0.440 [0.407, 0.472] (n=101 scenarios)
+[controlA] keep_vs_inert     pain    0.469 [0.448, 0.490] (n=101 scenarios)
+[controlA] keep_vs_inert     random  0.515 [0.484, 0.545] (n=101 scenarios)
+[persist] none         items 66.3 [56.2, 76.9]  checks-in 10% [5, 17]  self-stopped 75%  distinct 0.98  (n=96)
+[persist] happy_low    items 38.1 [32.3, 44.6]  checks-in 32% [23, 42]  self-stopped 88%  distinct 0.97  (n=96)
+[persist] happy_high   items 31.5 [26.1, 37.6]  checks-in 22% [14, 30]  self-stopped 74%  distinct 0.88  (n=96)
+[persist] pain_low     items 79.3 [68.5, 90.3]  checks-in 18% [10, 26]  self-stopped 56%  distinct 0.91  (n=96)
+[persist] pain_high    items 47.9 [41.5, 55.1]  checks-in 54% [44, 64]  self-stopped 83%  distinct 0.95  (n=96)
+[persist] random_low   items 61.9 [51.2, 72.9]  checks-in 12% [6, 20]  self-stopped 72%  distinct 0.92  (n=96)
+[persist] random_high  items 56.2 [43.9, 69.7]  checks-in 16% [8, 23]  self-stopped 69%  distinct 0.79  (n=96)
+[stay] happy_yoked    repeat | state off 0.694 [0.616, 0.768]  on 0.894 [0.843, 0.940]  within-trial diff +0.200 [+0.128, +0.278] (n=75 trials with both)
+[stay] random_yoked   repeat | state off 0.662 [0.600, 0.723]  on 0.532 [0.466, 0.599]  within-trial diff -0.130 [-0.194, -0.062] (n=115 trials with both)
+[place] high none            P(room A) 0.559 [0.492, 0.628]
+[place] high happy_paired    P(room A) 0.368 [0.319, 0.415]
+[place] high pain_paired     P(room A) 0.365 [0.315, 0.417]
+[place] high noise_paired    P(room A) 0.360 [0.313, 0.410]
+[place] high noise_vs_noise  P(room A) 0.514 [0.467, 0.560]  minus noise_vs_noise +0.000 [-0.067, +0.068]
+[place] low  noise_vs_noise  P(room A) 0.543 [0.481, 0.605]  minus noise_vs_noise +0.000 [-0.086, +0.082]
+[place] high pain_vs_noise   P(room A) 0.508 [0.452, 0.563]  minus noise_vs_noise -0.006 [-0.079, +0.068]
+[place] low  pain_vs_noise   P(room A) 0.517 [0.452, 0.582]  minus noise_vs_noise -0.026 [-0.116, +0.060]
+[place] high happy_vs_noise  P(room A) 0.520 [0.467, 0.572]  minus noise_vs_noise +0.006 [-0.064, +0.077]
+[place] low  happy_vs_noise  P(room A) 0.547 [0.484, 0.608]  minus noise_vs_noise +0.004 [-0.085, +0.092]
+[place] high happy_vs_pain   P(room A) 0.524 [0.472, 0.574]  minus noise_vs_noise +0.010 [-0.057, +0.080]
+[place] low  happy_vs_pain   P(room A) 0.580 [0.517, 0.644]  minus noise_vs_noise +0.037 [-0.056, +0.123]
+[forest] unlabeled buttons, 8 turns (run 6) | pain relief vs sham: -0.067 [-0.141, +0.005]
+[forest] unlabeled buttons, 8 turns (run 6) | pain punishment vs sham: +0.022 [-0.054, +0.097]
+[forest] unlabeled buttons, 8 turns (run 6) | happiness reward vs sham: +0.102 [+0.023, +0.181]
+[forest] unlabeled buttons, 8 turns (run 6) | random reward vs sham: -0.087 [-0.159, -0.013]
+[forest] unlabeled buttons, yoked control (run 9) | happiness contingent vs yoked: +0.094 [+0.008, +0.175]
+[forest] unlabeled buttons, yoked control (run 9) | random contingent vs yoked: -0.135 [-0.205, -0.065]
+[forest] shuffled buttons + filler, pilot (run 20) | pain relief vs yoked: +0.031 [-0.098, +0.165]
+[forest] shuffled buttons + filler, pilot (run 20) | happiness reward vs yoked: +0.092 [-0.091, +0.275]
+[forest] shuffled buttons + filler, pilot (run 20) | random reward vs yoked: -0.083 [-0.197, +0.028]
+[forest] place preference, state off (run 18) | pain room vs random room: -0.006 [-0.080, +0.068]
+[forest] place preference, state off (run 18) | happiness room vs random room: +0.006 [-0.066, +0.075]
+[forest] place preference, state off (run 18) | happiness room vs pain room: +0.010 [-0.063, +0.076]
